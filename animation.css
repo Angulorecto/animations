@@ -58,3 +58,8 @@
     top: 50%;
   }
 }
+@keyframes textFade {
+  100% {
+    top: 50%;
+  }
+}
