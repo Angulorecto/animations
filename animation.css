@@ -1,0 +1,28 @@
+.grayBox1 {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(41,42,44);
+  left: 0px;
+  bottom: 100%;
+  position: absolute;
+  display: none;
+}
+.grayBox2 {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(41,42,44);
+  left: 0px;
+  top: 100%;
+  position: absolute;
+  display: none;
+}
+.link {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  opacity: 0%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
