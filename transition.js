@@ -13,10 +13,10 @@ hammer.addEventListener("animationend", () => {
   hammer.style.width = "20%";
 });
 function start() {
-  box1.style.animation = "down 1s";
-  box2.style.animation = "up 1s";
+  box1.style.animation = "down 1s forwards";
+  box2.style.animation = "up 1s forwards";
   box1.style.display = "block";
   box2.style.display = "block";
-  hammer.style.animation = "fade 2s";
+  hammer.style.animation = "fade 2s forwards";
   hammer.style.display = "block";
 }
