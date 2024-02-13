@@ -17,5 +17,5 @@ function start() {
   document.getElementById("hammer").style.display = "block";
   // Note: this line's timing has to be 0.15 less then the 3 above.
   setTimeout(boxDone, 0850)
-  setTimeout(hammerDone, 1200)
+  setTimeout(hammerDone, 1300)
 }
