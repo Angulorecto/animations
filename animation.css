@@ -26,3 +26,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+@keyframes fade {
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes down {
+  100% {
+    bottom: 50%;
+  }
+}
+@keyframes up {
+  100% {
+    top: 50%;
+  }
+}
