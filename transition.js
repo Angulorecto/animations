@@ -4,6 +4,7 @@ function blueDone() {
   document.getElementById("hammer").style.opacity = "100%";
   document.getElementById("hammer").style.left = "40%";
   document.getElementById("hammer").style.top = "10%";
+  document.getElementById("hammer").style.width = "20%";
 }
 function start() {
   document.getElementById("box1").style.animation = "down 1s";
