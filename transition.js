@@ -1,5 +1,5 @@
 var box1 = document.getElementById("box1");
-var box2 = document.querySelector("#box2");
+var box2 = document.querySelector("box2");
 var hammer = document.getElementById("hammer");
 
 box1.addEventListener("animationend", () => {
