@@ -2,6 +2,8 @@ function blueDone() {
   document.getElementById("box1").style.bottom = "50%";
   document.getElementById("box2").style.top = "50%";
   document.getElementById("hammer").style.opacity = "100%";
+  document.getElementById("hammer").style.left = "40%";
+  document.getElementById("hammer").style.top = "10%";
 }
 function start() {
   document.getElementById("box1").style.animation = "down 1s";
