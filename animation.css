@@ -76,6 +76,7 @@
   }
   99% {
     opacity: 0%;
+    z-index: 20;
   }
   100% {
     opacity: 100%;
