@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'techy';
+  src: url('ethnocentric.ttf') format('ttf'),
+       url('ethnocentric.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 .grayBox1 {
   width: 100%;
   height: 50vh;
@@ -48,13 +55,6 @@
   animation-fill-mode: forwards;
   position: absolute;
   font-family: 'techy';
-}
-@font-face {
-  font-family: 'techy';
-  src: url('ethnocentric.ttf') format('ttf'),
-       url('ethnocentric.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
 }
 @keyframes fade {
   20% {
