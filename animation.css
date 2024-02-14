@@ -75,16 +75,10 @@
   }
 }
 @keyframes textIn {
-  0% {
+  from {
     opacity: 0%;
   }
-  99% {
-    opacity: 0%;
-  }
-  99.9% {
-    opacity: 100%;
-  }
-  100% {
+  to {
     opacity: 100%;
   }
 }
