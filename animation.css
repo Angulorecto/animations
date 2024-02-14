@@ -38,7 +38,7 @@
     rotate: z 0deg;
   }
   65% {
-    transform: rotate(-40);
+    transform: rotate(-90);
   	transform-origin: bottom-right;
   }
   85% {
