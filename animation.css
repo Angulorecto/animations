@@ -35,6 +35,10 @@
   }
   45% {
     opacity: 100%;
+    rotate: z 0deg;
+  }
+  65% {
+    rotate: z 30deg;
   }
   85% {
     width: 30%;
