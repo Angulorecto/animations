@@ -29,6 +29,14 @@
   margin-right: auto;
   animation-fill-mode: forwards;
 }
+.bannedTitle {
+  color: red;
+  font-size: 30px;
+}
+.bannedReason {
+  color: red;
+  font-size: 15px;
+}
 @keyframes fade {
   20% {
     opacity: 0%;
