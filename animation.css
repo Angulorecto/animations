@@ -37,6 +37,7 @@
     opacity: 100%;
     rotate: z 0deg;
     transform: translate(0px, 0px);
+    top: 20%;
   }
   65% {
     transform: translate(-30%, 30%);
