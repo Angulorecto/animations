@@ -60,14 +60,14 @@
   20% {
     opacity: 0%;
   }
-  45% {
+  50% {
     opacity: 100%;
     rotate: z 0deg;
     transform: translate(0px, 0px);
     top: 20%;
     left: 35%;
   }
-  65% {
+  60% {
     transform: translate(-30%, 30%);
     rotate: z -50deg;
     top: 0%;
