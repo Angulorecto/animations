@@ -11,5 +11,5 @@ function start() {
   document.getElementById("box2").style.display = "block";
   document.getElementById("hammer").style.animation = "fade 3s forwards";
   document.getElementById("hammer").style.display = "block";
-  setTimeout(text, 2000);
+  setTimeout(text, 3000);
 }
