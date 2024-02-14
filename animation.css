@@ -32,10 +32,14 @@
 .bannedTitle {
   color: red;
   font-size: 30px;
+  top: 50%;
+  display: none;
 }
 .bannedReason {
   color: red;
   font-size: 15px;
+  top: 55%;
+  display: none;
 }
 @keyframes fade {
   20% {
