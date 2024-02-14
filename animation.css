@@ -39,7 +39,7 @@
   }
   65% {
     transform: translate(-10%, -10%);
-    rotate: z -90deg;
+    rotate: z -50deg;
   }
   85% {
     width: 30%;
