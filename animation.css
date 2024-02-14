@@ -38,9 +38,9 @@
     rotate: z 0deg;
   }
   65% {
-    rotate: z -50deg;
-    top: 25%;
-    left: 30%;
+    rotate: z -80deg;
+    top: 35%;
+    left: 20%;
   }
   85% {
     width: 30%;
