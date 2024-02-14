@@ -70,6 +70,17 @@
     left: 42.5%;
   }
 }
+@keyframes textIn {
+  0% {
+    opacity: 0%;
+  }
+  99% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 @keyframes down {
   100% {
     bottom: 50%;
