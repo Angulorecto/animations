@@ -37,6 +37,7 @@
   z-index: 20;
   animation-fill-mode: forwards;
   position: absolute;
+  font-family: 'techy';
 }
 .bannedReason {
   color: red;
@@ -46,11 +47,12 @@
   z-index: 20;
   animation-fill-mode: forwards;
   position: absolute;
+  font-family: 'techy';
 }
 @font-face {
   font-family: 'techy';
   src: url('ethnocentric.ttf') format('ttf'),
-        url('ethnocentric.ttf') format('ttf');
+       url('ethnocentric.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
