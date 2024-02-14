@@ -38,8 +38,8 @@
     rotate: z 0deg;
   }
   65% {
+    transform-origin: bottom-right;
     transform: rotate(-90);
-  	transform-origin: bottom-right;
   }
   85% {
     width: 30%;
