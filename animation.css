@@ -83,8 +83,6 @@
 @keyframes warn {
   0% {
     width: 40%;
-    margin: auto 0 auto 0;
-    left: 42.5%;
     opacity: 0%;
   }
   20% {
@@ -101,8 +99,6 @@
   }
   100% {
     width: 40%;
-    top: 5%;
-    left: 42.5%;
     opacity: 100%;
   }
 }
