@@ -81,32 +81,43 @@
   font-family: 'techy';
 }
 @keyframes warn {
-  20% {
+  0% {
     opacity: 0%;
   }
-  50% {
+  20% {
     opacity: 100%;
-    rotate: z 0deg;
-    transform: translate(0px, 0px);
-    top: 20%;
-    left: 35%;
+  }
+  40% {
+    opacity: 0%;
   }
   60% {
-    transform: translate(-30%, 30%);
-    rotate: z -50deg;
-    top: 0%;
-    left: 30%;
+    opacity: 100%;
   }
-  85% {
-    width: 30%;
-    top: 20%;
-    left: 35%;
+  80% {
+    opacity: 0%;
   }
   100% {
     opacity: 100%;
-    width: 15%;
-    top: 5%;
-    left: 42.5%;
+  }
+}
+@keyframes warnText {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 100%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 @keyframes fade {
