@@ -40,7 +40,7 @@
   color: red;
   font-size: 130px;
   margin: 20% 0px 0px 0px;
-  width: auto;
+  width: -webkit-fill-available;
   opacity: 0%;
   z-index: 20;
   position: absolute;
