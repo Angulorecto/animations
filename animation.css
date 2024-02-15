@@ -39,7 +39,7 @@
 .bannedTitle {
   color: red;
   font-size: 130px;
-  margin: 20% 0px 0px 0px;
+  margin: 17% 0px 0px 0px;
   width: -webkit-fill-available;
   opacity: 0%;
   z-index: 20;
@@ -50,7 +50,7 @@
 .bannedReason {
   color: red;
   font-size: 15px;
-  margin: 35% 0px 0px 0px;
+  margin: 32% 0px 0px 0px;
   width: -webkit-fill-available;
   opacity: 0%;
   z-index: 20;
