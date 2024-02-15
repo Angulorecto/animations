@@ -125,20 +125,11 @@
   0% {
     opacity: 0%;
   }
-  20% {
-    opacity: 0%;
-  }
-  40% {
-    opacity: 0%;
-  }
-  60% {
-    opacity: 0%;
-  }
   80% {
     opacity: 0%;
   }
   100% {
-    opacity: 0%;
+    opacity: 100%;
   }
 }
 @keyframes fade {
