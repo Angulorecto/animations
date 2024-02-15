@@ -84,20 +84,29 @@
   0% {
     opacity: 0%;
   }
-  20% {
+  15% {
     opacity: 100%;
   }
-  40% {
+  30% {
     opacity: 0%;
+  }
+  45% {
+    opacity: 100%;
   }
   60% {
-    opacity: 100%;
-  }
-  80% {
     opacity: 0%;
+  }
+  75% {
+    width: 30%;
+    top: 20%;
+    left: 35%;
+    opacity: 100%;
   }
   100% {
     opacity: 100%;
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
   }
 }
 @keyframes warnText {
