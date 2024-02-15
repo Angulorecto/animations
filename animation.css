@@ -6,8 +6,10 @@
   font-style: normal;
 }
 button {
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'techy';
+  font-size: 90px;
 }
 .grayBox1 {
   width: 100%;
