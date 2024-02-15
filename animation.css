@@ -82,8 +82,8 @@
 }
 @keyframes warn {
   0% {
-    width: 15%;
-    top: 5%;
+    width: 40%;
+    margin: auto 0 auto 0;
     left: 42.5%;
     opacity: 0%;
   }
@@ -100,7 +100,7 @@
     opacity: 0%;
   }
   100% {
-    width: 15%;
+    width: 40%;
     top: 5%;
     left: 42.5%;
     opacity: 100%;
@@ -111,19 +111,19 @@
     opacity: 0%;
   }
   20% {
-    opacity: 100%;
+    opacity: 0%;
   }
   40% {
     opacity: 0%;
   }
   60% {
-    opacity: 100%;
+    opacity: 0%;
   }
   80% {
     opacity: 0%;
   }
   100% {
-    opacity: 100%;
+    opacity: 0%;
   }
 }
 @keyframes fade {
