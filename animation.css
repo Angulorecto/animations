@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+button {
+  width: 100%;
+  height: 100%;
+}
 .grayBox1 {
   width: 100%;
   height: 50vh;
