@@ -82,6 +82,9 @@
 }
 @keyframes warn {
   0% {
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
     opacity: 0%;
   }
   20% {
@@ -102,9 +105,6 @@
 }
 @keyframes warnText {
   0% {
-    width: 15%;
-    top: 5%;
-    left: 42.5%;
     opacity: 0%;
   }
   20% {
