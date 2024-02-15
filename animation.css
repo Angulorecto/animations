@@ -6,8 +6,8 @@
   font-style: normal;
 }
 button {
-  width: 100%;
-  height: 100%;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 .grayBox1 {
   width: 100%;
