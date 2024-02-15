@@ -58,6 +58,28 @@
   position: absolute;
   font-family: 'techy';
 }
+.warnedTitle {
+  color: yellow;
+  font-size: 130px;
+  margin: 17% 0px 0px 0px;
+  width: -webkit-fill-available;
+  opacity: 0%;
+  z-index: 20;
+  position: absolute;
+  animation-fill-mode: forwards;
+  font-family: 'techy';
+}
+.warnedReason {
+  color: yellow;
+  font-size: 15px;
+  margin: 32% 0px 0px 0px;
+  width: -webkit-fill-available;
+  opacity: 0%;
+  z-index: 20;
+  animation-fill-mode: forwards;
+  position: absolute;
+  font-family: 'techy';
+}
 @keyframes fade {
   20% {
     opacity: 0%;
