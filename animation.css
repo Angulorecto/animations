@@ -84,6 +84,35 @@ button {
   position: absolute;
   font-family: 'techy';
 }
+@keyframes warn {
+  20% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    rotate: z 0deg;
+    transform: translate(0px, 0px);
+    top: 20%;
+    left: 35%;
+  }
+  60% {
+    transform: translate(-30%, 30%);
+    rotate: z -50deg;
+    top: 0%;
+    left: 30%;
+  }
+  85% {
+    width: 30%;
+    top: 20%;
+    left: 35%;
+  }
+  100% {
+    opacity: 100%;
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
+  }
+}
 @keyframes fade {
   20% {
     opacity: 0%;
