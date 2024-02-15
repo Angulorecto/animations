@@ -26,5 +26,5 @@ function warn() {
   document.getElementById("box2").style.display = "block";
   document.getElementById("triangle").style.animation = "warn 3s forwards";
   document.getElementById("triangle").style.display = "block";
-  setTimeout(warnText, 3000);
+  warnText();
 }
