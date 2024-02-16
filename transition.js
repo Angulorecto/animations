@@ -20,4 +20,6 @@ function warn() {
   document.getElementById("reason").style.display = "block";
   document.getElementById("triangle").style.animation = "warn 3s forwards";
   document.getElementById("triangle").style.display = "block";
+  document.getElementById("glass").style.animation = "glassy 0.7s forwards";
+  document.getElementById("glass").style.display = "block";
 }
