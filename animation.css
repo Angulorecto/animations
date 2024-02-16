@@ -103,8 +103,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   background-color: rgba(65, 65, 65, 0.1);
