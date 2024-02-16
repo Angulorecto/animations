@@ -138,6 +138,23 @@
     left: 42.5%;
   }
 }
+@keyframes iconOut {
+  0% {
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
+  }
+  99.9% {
+    opacity: 0%;
+  }
+  100% {
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
+    opacity: 0%;
+    display: none;
+  }
+}
 @keyframes fadeOut {
   0% {
     opacity: 100%;
