@@ -33,4 +33,5 @@ function warn() {
   document.getElementById("triangle").style.display = "block";
   document.getElementById("glass").style.animation = "glassy 0.7s forwards";
   document.getElementById("glass").style.display = "flex";
+  setTimeout(warnOut, 3000);
 }
