@@ -21,7 +21,7 @@ function banOut() {
 function warnOut() {
   document.getElementById("title").style.animation = "fadeOut 3s forwards";
   document.getElementById("reason").style.animation = "fadeOut 3s forwards";
-  document.getElementById("triangle").style.animation = "fadeOut 3s forwards";
+  document.getElementById("triangle").style.animation = "iconOut 3s forwards";
   document.getElementById("glass").style.animation = "fadeOut 3s forwards";
 }
 function warn() {
