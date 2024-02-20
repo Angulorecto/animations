@@ -142,6 +142,9 @@
   }
   100% {
     opacity: 0%;
+    width: 15%;
+    top: 5%;
+    left: 42.5%;
   }
 }
 @keyframes fadeOut {
