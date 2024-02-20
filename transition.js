@@ -4,6 +4,10 @@ function text() {
   document.getElementById("reason").style.animation = "textIn 1s forwards";
   document.getElementById("reason").style.display = "block";
 }
+function resetIcon() {
+  document.getElementById("triangle").style.display = "none";
+  document.getElementById("hammer").style.display = "none";
+}
 function start() {
   document.getElementById("box1").style.animation = "down 1s forwards";
   document.getElementById("box2").style.animation = "up 1s forwards";
@@ -33,4 +37,5 @@ function warn() {
   document.getElementById("glass").style.animation = "glassy 0.7s forwards";
   document.getElementById("glass").style.display = "flex";
   setTimeout(warnOut, 6000);
+  setTimeout(resetIcon, 3000);
 }
