@@ -21,7 +21,6 @@ function banOut() {
 function warnOut() {
   document.getElementById("title").style.animation = "fadeOut 3s forwards";
   document.getElementById("reason").style.animation = "fadeOut 3s forwards";
-  document.getElementById("triangle").style.animation = "iconOut 3s forwards";
   document.getElementById("glass").style.animation = "fadeOut 3s forwards";
 }
 function warn() {
@@ -29,7 +28,7 @@ function warn() {
   document.getElementById("title").style.display = "block";
   document.getElementById("reason").style.animation = "warnText 3s forwards";
   document.getElementById("reason").style.display = "block";
-  document.getElementById("triangle").style.animation = "warn 3s forwards";
+  document.getElementById("triangle").style.animation = "warn 6s forwards";
   document.getElementById("triangle").style.display = "block";
   document.getElementById("glass").style.animation = "glassy 0.7s forwards";
   document.getElementById("glass").style.display = "flex";
