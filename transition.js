@@ -37,5 +37,5 @@ function warn() {
   document.getElementById("glass").style.animation = "glassy 0.7s forwards";
   document.getElementById("glass").style.display = "flex";
   setTimeout(warnOut, 6000);
-  setTimeout(resetIcon, 3000);
+  setTimeout(resetIcon, 9000);
 }
