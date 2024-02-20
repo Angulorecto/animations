@@ -146,6 +146,7 @@
   }
   99.9% {
     opacity: 0%;
+    display: block;
   }
   100% {
     width: 15%;
