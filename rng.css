@@ -26,6 +26,5 @@
 }
 
 .diamond:nth-child(2) {
-  transform: rotate(-90deg);
   left: 52%;
 }
