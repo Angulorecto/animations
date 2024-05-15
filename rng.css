@@ -1,3 +1,10 @@
+.diamond-container {
+  position: relative;
+  width: 140px; /* Adjust this value as needed */
+  height: 140px; /* Adjust this value as needed */
+  margin: 0 auto;
+}
+
 .diamond {
   width: 0;
   height: 0;
