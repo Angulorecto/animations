@@ -1,7 +1,7 @@
 .diamond {
   width: 0;
   height: 0;
-  border: 50px solid transparent;
+  border: 20px solid transparent;
   border-bottom: 70px solid orange;
   position: absolute;
   top: 50%;
@@ -16,14 +16,10 @@
   top: 70px;
   width: 0;
   height: 0;
-  border: 50px solid transparent;
+  border: 20px solid transparent;
   border-top: 70px solid orange;
 }
 
 .diamond:nth-child(1) {
   transform: rotate(90deg);
-}
-
-.diamond:nth-child(2) {
-  transform: rotate(-90deg);
 }
