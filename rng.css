@@ -12,7 +12,7 @@ body {
 
 @keyframes spin {
   0% { rotate: 0deg; }
-  80% { rotate: 7200deg; width: 10%; }
-  85% { rotate: 7200deg; width: 7%; top: 40%; left: 45%;}
-  95% { rotate: 7200deg; width: 1000%; top: -50%; left: -50%; }
+  80% { rotate: 720deg; width: 10%; }
+  85% { rotate: 720deg; width: 7%; top: 40%; left: 45%;}
+  95% { rotate: 720deg; width: 1000%; top: -50%; left: -50%; }
 }
