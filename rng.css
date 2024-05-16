@@ -20,7 +20,7 @@
 .diamond:before {
   content: '';
   position: absolute;
-  left: -40px;
+  left: -20px;
   top: 70px;
   width: 0;
   height: 0;
@@ -30,9 +30,8 @@
 
 .diamond:nth-child(1) {
   transform: rotate(90deg);
-  left: 130%;
 }
 
 .diamond:nth-child(2) {
-  left: 52%;
+  left: 55%;
 }
