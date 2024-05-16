@@ -8,7 +8,7 @@ body {
   position: absolute;
   top: 40%;
   left: 45%;
-  animation: spin 7s ease infinite;
+  animation: spin 7s ease 1;
 }
 
 @keyframes spin {
