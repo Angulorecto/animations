@@ -28,7 +28,8 @@
 }
 
 .diamond:nth-child(1) {
-  transform: rotate(90deg) translateX(50%);
+  transform: rotate(90deg);
+  translate: 50% 0%;
 }
 
 .diamond:nth-child(2) {
