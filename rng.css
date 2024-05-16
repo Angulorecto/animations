@@ -12,5 +12,5 @@ body {
 
 @keyframes spin {
   from { rotate: 0deg; }
-  to { rotate: 3600deg; }
+  to { rotate: 1800deg; }
 }
