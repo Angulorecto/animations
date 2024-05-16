@@ -12,6 +12,7 @@ body {
 }
 
 #vignette {
+  display: none;
   position: absolute;
   overflow: hidden;
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
