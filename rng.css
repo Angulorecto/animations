@@ -3,6 +3,7 @@
   width: 140px; /* Adjust this value as needed */
   height: 140px; /* Adjust this value as needed */
   margin: 0 auto;
+  animation: roll 3s infinite;
 }
 
 .diamond {
@@ -34,4 +35,13 @@
 
 .diamond:nth-child(2) {
   left: 52%;
+}
+
+@keyframes roll {
+  from {
+    rotate(0deg);
+  }
+  to {
+    rotate(360deg);
+  }
 }
