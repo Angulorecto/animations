@@ -1,6 +1,7 @@
 .star {
   width: 10%;
   height: auto; /* Added to maintain aspect ratio while centering */
+  position: absolute;
   top: 45%;
   left: 45%;
 }
