@@ -1,4 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .star {
   width: 10%;
-  transform: translate(-50%, -50%);
 }
