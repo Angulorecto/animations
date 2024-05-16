@@ -3,6 +3,7 @@
   position: absolute;
   top: 40%;
   left: 45%;
+  animation: spin 3s infinite;
 }
 
 @keyframes spin {
