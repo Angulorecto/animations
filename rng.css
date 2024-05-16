@@ -1,6 +1,11 @@
-img {
+.star {
   width: 10%;
   position: absolute;
   top: 40%;
   left: 45%;
+}
+
+@keyframes spin {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
 }
