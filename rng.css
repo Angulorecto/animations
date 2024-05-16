@@ -20,7 +20,7 @@
 .diamond:before {
   content: '';
   position: absolute;
-  left: -20px;
+  left: -40px;
   top: 70px;
   width: 0;
   height: 0;
@@ -35,13 +35,4 @@
 
 .diamond:nth-child(2) {
   left: 52%;
-}
-
-@keyframes roll {
-  from {
-    rotate(0deg);
-  }
-  to {
-    rotate(360deg);
-  }
 }
