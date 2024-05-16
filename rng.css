@@ -3,9 +3,7 @@
   width: 140px; /* Adjust this value as needed */
   height: 140px; /* Adjust this value as needed */
   margin: 0 auto;
-  animation: roll 3s infinite;
 }
-
 .diamond {
   width: 0;
   height: 0;
@@ -16,7 +14,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .diamond:before {
   content: '';
   position: absolute;
@@ -30,8 +27,9 @@
 
 .diamond:nth-child(1) {
   transform: rotate(90deg);
+  left: 48%;
 }
 
 .diamond:nth-child(2) {
-  left: 55%;
+  left: 52%;
 }
