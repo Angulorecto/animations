@@ -21,6 +21,7 @@ body {
   height: 100%;
   top: 0%;
   left: 0%;
+  animation: vignette 3s ease 1;
 }
 
 @keyframes spin {
