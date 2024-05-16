@@ -1,11 +1,6 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Added to ensure the body takes up the full viewport height */
-}
-
 .star {
   width: 10%;
   height: auto; /* Added to maintain aspect ratio while centering */
+  top: 45%;
+  left: 45%;
 }
