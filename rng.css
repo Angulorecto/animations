@@ -3,7 +3,7 @@ body {
   overflow: hidden;
 }
 
-.star {
+#star {
   width: 10%;
   position: absolute;
   top: 40%;
