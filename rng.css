@@ -30,3 +30,10 @@ body {
   75% { rotate: 720deg; width: 1000%; top: -900%; left: -450%; }
   100% { rotate: 720deg; width: 1000%; top: -900%; left: -450%; }
 }
+
+@keyframes vignette {
+  0% { display: block; opacity: 0%; }
+  5% { display: block; opacity: 100%; }
+  95% { display: block; opacity: 100%; }
+  100% { display: block; opacity: 0%; }
+}
