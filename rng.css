@@ -7,10 +7,12 @@ body {
   position: absolute;
   top: 40%;
   left: 45%;
-  animation: spin 5s ease infinite;
+  animation: spin 8s ease infinite;
 }
 
 @keyframes spin {
-  from { rotate: 0deg; }
-  to { rotate: 1800deg; }
+  0% { rotate: 0deg; }
+  80% { rotate: 7200deg; }
+  85% { rotate: 7200deg; width: 7%; }
+  95% { rotate: 7200deg; width: 1000%; top: -50%; left: -50%; }
 }
