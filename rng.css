@@ -6,8 +6,9 @@ body {
 #star {
   width: 10%;
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
 }
 
 #vignette {
