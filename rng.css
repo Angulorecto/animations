@@ -4,11 +4,12 @@ body {
 }
 
 #star {
+  display: block;
+  top: 42%;
   width: 10%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -5% 0 0 -5%; /* Center the image */
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
 #vignette {
