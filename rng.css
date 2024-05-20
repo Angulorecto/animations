@@ -24,12 +24,19 @@ body {
   left: 0%;
 }
 
-@keyframes spin {
-  0% { rotate: 0deg; }
-  60% { rotate: 720deg; width: 10%; top: 50%; left: 50%; }
-  65% { rotate: 720deg; width: 7%; top: 53%; left: 51.5%; }
-  67% { rotate: 720deg; width: 400%; top: -50vh; left: -60vh; }
-  100% { rotate: 720deg; width: 400%; top: -50vh; left: -60vh; }
+@keyframes growStar {
+  0% {
+    width: 10%;
+    height: auto;
+    top: 42%;
+    margin-top: -5%; /* Adjust this value if needed */
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: 0;
+  }
 }
 
 @keyframes vignette {
