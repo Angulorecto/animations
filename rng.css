@@ -4,12 +4,24 @@ body {
 }
 
 #star {
-  display: block;
-  top: 42%;
+  position: fixed;
   width: 10%;
-  position: relative;
-  text-align: center;
-  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: centerAnimation 2s infinite;
+}
+
+@keyframes centerAnimation {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
 }
 
 #vignette {
@@ -22,21 +34,6 @@ body {
   height: 100%;
   top: 0%;
   left: 0%;
-}
-
-@keyframes growStar {
-  0% {
-    width: 10vw;
-    height: auto;
-    top: 42vh;
-    margin-top: -5vh; /* Adjust this value if needed */
-  }
-  100% {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    margin-top: 0;
-  }
 }
 
 @keyframes vignette {
