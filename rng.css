@@ -27,22 +27,35 @@ body {
 
 @keyframes centerAnimation {
   0% {
+    display: block;
+    opacity: 0%;
     transform: translate(-50%, -50%) rotate(0deg);
     transform-origin: center center;
   }
+  3% {
+    opacity: 100%;
+  }
   60% {
+    display: block;
+    opacity: 100%;
     transform: translate(-50%, -50%) rotate(720deg) scale(1);
     transform-origin: center center;
   }
   65% {
+    display: block;
+    opacity: 100%;
     transform: translate(-50%, -50%) rotate(720deg) scale(0.7);
     transform-origin: center center;
   }
   67% {
+    display: block;
+    opacity: 100%;
     transform: translate(-50%, -50%) rotate(720deg) scale(50);
     transform-origin: center center;
   }
   100% {
+    display: block;
+    opacity: 100%;
     transform: translate(-50%, -50%) rotate(720deg) scale(50);
     transform-origin: center center;
   }
