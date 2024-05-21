@@ -25,19 +25,6 @@ body {
 }
 
 @keyframes centerAnimation {
-  0% {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%) scale(50);
-  }
-}
-
-@keyframes centerAnimation {
   0% { rotate: 0deg; }
   60% { rotate: 720deg; transform: scale(1); }
   65% { rotate: 720deg; transform: scale(0.7); }
