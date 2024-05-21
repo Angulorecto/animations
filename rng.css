@@ -31,7 +31,7 @@ body {
     transform: translate(-50%, -50%) rotate(0deg);
     transform-origin: center center;
   }
-  3% {
+  5% {
     opacity: 100%;
   }
   60% {
