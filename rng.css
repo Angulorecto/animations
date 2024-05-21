@@ -12,18 +12,6 @@ body {
   animation: centerAnimation 2s infinite;
 }
 
-@keyframes centerAnimation {
-  0% {
-    transform: translate(-50%, -50%);
-  }
-  50% {
-    transform: translate(-50%, -50%) scale(1.2);
-  }
-  100% {
-    transform: translate(-50%, -50%);
-  }
-}
-
 #vignette {
   display: none;
   position: absolute;
@@ -34,6 +22,15 @@ body {
   height: 100%;
   top: 0%;
   left: 0%;
+}
+
+@keyframes centerAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
 }
 
 @keyframes vignette {
