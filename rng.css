@@ -4,6 +4,7 @@ body {
 }
 
 #star {
+  display: none;
   position: fixed;
   height: 20%;
   top: 50%;
