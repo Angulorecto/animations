@@ -37,6 +37,14 @@ body {
   }
 }
 
+@keyframes centerAnimation {
+  0% { rotate: 0deg; }
+  60% { rotate: 720deg; transform: scale(1); }
+  65% { rotate: 720deg; transform: scale(0.7); }
+  67% { rotate: 720deg; transform: scale(50); }
+  100% { rotate: 720deg; transform: scale(50); }
+}
+
 @keyframes vignette {
   0% { display: block; opacity: 0%; }
   5% { display: block; opacity: 100%; }
