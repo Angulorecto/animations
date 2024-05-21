@@ -25,16 +25,43 @@ body {
 }
 
 @keyframes centerAnimation {
-  0% { rotate: 0deg; }
-  60% { rotate: 720deg; transform: scale(1); }
-  65% { rotate: 720deg; transform: scale(0.7); }
-  67% { rotate: 720deg; transform: scale(50); }
-  100% { rotate: 720deg; transform: scale(50); }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: center center;
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(1);
+    transform-origin: center center;
+  }
+  65% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(0.7);
+    transform-origin: center center;
+  }
+  67% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(50);
+    transform-origin: center center;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(50);
+    transform-origin: center center;
+  }
 }
 
 @keyframes vignette {
-  0% { display: block; opacity: 0%; }
-  5% { display: block; opacity: 100%; }
-  95% { display: block; opacity: 100%; }
-  100% { display: block; opacity: 0%; }
+  0% {
+    display: block;
+    opacity: 0%;
+  }
+  5% {
+    display: block;
+    opacity: 100%;
+  }
+  95% {
+    display: block;
+    opacity: 100%;
+  }
+  100% {
+    display: block;
+    opacity: 0%;
+  }
 }
